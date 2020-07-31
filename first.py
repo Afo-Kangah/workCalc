@@ -6,6 +6,10 @@ import csv
 
 calculate the number of hours between start and end times for the working period
 
+# calculate the number of hours between start and end times for the working period
+
+# calculate the number of hours between start and end times for the working period
+
 
 def timeDifference(start, end):
     return (end - start).seconds / 3600
@@ -24,6 +28,8 @@ def addToFile(start, end, timeDifference, totalAmount):
         writer = csv.writer(file)
         writer.writerows(toAdd)
 
+# calculate the number of hours between start and end times for the working period
+# calculate the number of hours between start and end times for the working period
 
 # when the user chooses to enter start and end dates and times
 
